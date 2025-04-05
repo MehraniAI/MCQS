@@ -403,7 +403,7 @@ class PythonQuizApp:
     def show_welcome_screen(self):
         st.title("Python Quiz Challenge")
         st.write("""
-        This quiz contains 80 questions about Python programming and cloud computing (Questions 301-380).
+        This quiz contains 50 questions about Python programming and cloud computing (Questions 401-450).
         You'll have 1 minute to answer each question.
         """)
         
