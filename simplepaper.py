@@ -87,7 +87,7 @@ class PythonQuizApp:
         st.title("Python String Methods Quiz")
         st.write("""
         This quiz contains 45 questions about Python(simples papers).
-        You'll have 1 minute to answer each question.
+        You'll have 1.3 minute to answer each question.
         """)
         
         if st.button("Start Quiz"):
