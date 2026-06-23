@@ -14,9 +14,19 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-.stApp {
-    background-color: #0E1117;
-    color: white;
+input {
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+}
+
+input::placeholder {
+    color: white !important;
+    -webkit-text-fill-color: white !important;
+}
+
+textarea {
+    color: white !important;
+    -webkit-text-fill-color: white !important;
 }
 </style>
 """, unsafe_allow_html=True)
