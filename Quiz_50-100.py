@@ -460,7 +460,7 @@ if st.session_state.page == "home":
     This website is temporarily used for MCQ Quiz 2026.
 
     ### Features
-    - 30 Seconds Per Question
+    - 60 Seconds Per Question
     - Progress Bar
     - Pass / Fail
     - Leaderboard
@@ -511,7 +511,7 @@ elif st.session_state.page == "quiz":
         time.time() - st.session_state.start_time
     )
 
-    remaining = max(0, 30 - elapsed)
+    remaining = max(0, 60 - elapsed)
 
     st.warning(
         f"⏱ Time Left: {remaining} seconds"
