@@ -659,7 +659,7 @@ elif st.session_state.page == "quiz":
         time.time() - st.session_state.start_time
     )
 
-    remaining = max(0, 30 - elapsed)
+    remaining = max(0, 60 - elapsed)
 
     st.warning(
         f"⏱ Time Left: {remaining} seconds"
