@@ -457,7 +457,7 @@ if st.session_state.page == "home":
     st.markdown("""
     ## Welcome
 
-    This website is temporarily used for MCQ Quiz 2026.
+    This website is used for the MCQ Quiz 2026.
 
     ### Features
     - 60 Seconds Per Question
